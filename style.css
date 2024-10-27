@@ -1,0 +1,193 @@
+
+
+  .app {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: #a9dce3;
+    
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type="submit"] {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background:  #f4fafd;;
+    border: 2px solid  white;
+    color: black;
+    padding: 10px 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background:  white;;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login-form {
+    background-color: #7689de;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+
+ 
+  .list-container {
+    display: flex;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .title {
+    font-size: 25px;
+    color:  white;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    color:  white;
+    gap: 8px;
+    margin: 10px;
+  }
+  
+  .Introstart{
+    color: black;
+  }
+
+  .Intro {
+    color:  black;
+    padding: 25px 25px;
+    font-style:normal;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+  }
+
+  .Intros {
+    
+      color:  black;
+      padding: 25px 25px;
+      font-style:normal;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: lighter;
+    
+  }
+
+
+  input[type=file]::file-selector-button {
+    border: 2px solid white;
+    padding: .2em .4em;
+    border-radius: .2em;
+    background-color: white;
+    transition: 1s;
+  }
+  
+  input[type=file]::file-selector-button:hover {
+    background-color: #81ecec;
+    border: 2px solid #00cec9;
+  }
+  
+  .BankInfo li {
+    color: black;
+   
+  }
+
+  .successMessage {
+    color: white;
+   
+  }
+
+
+  .button-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .BankButton {
+    position: fixed; 
+    margin-right: 8pc;
+    border: 2px solid white;
+    padding: .2em .4em;
+    border-radius: .2em;
+    background-color: white;
+    transition: 1s;
+  }
+  
+  .TaxButton {
+    position: fixed;
+    margin-left: 8pc;
+    border: 2px solid white;
+    padding: .2em .4em;
+    border-radius: .2em;
+    background-color: white;
+    transition: 1s;
+  }
+  
+  .BankInfo {
+     margin-top: 2.5pc;
+     
+    background-color: white;
+    float: left;
+    width: 50%;
+  }
+  
+  .TaxInfo {
+    margin-top: 2.5pc;
+    background-color: white;
+    float: right;
+    width: 50%;
+  }
+  
+
+  .notifybutton {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    color: white;
+    border: transparent;
+    padding: .2em .4em;
+  }
+
+
+  .bankEmail{
+    border: 2px solid white;
+    padding: .2em .4em;
+    border-radius: .2em;
+  }
+
+  .taxEmail{
+    border: 2px solid white;
+    padding: .2em .4em;
+    border-radius: .2em;
+  }
+
+  .Button{
+
+    border: 12px solid white;
+    padding: .2em .4em;
+    border-radius: .2em;
+    background-color: white;
+    margin-left: 85pc;
+    margin-top: 35pc;
+    position: absolute;
+    
+
+  }
